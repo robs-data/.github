@@ -17,6 +17,7 @@ jobs:
           github_user_name: robs-data
           outputs: |
             dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
